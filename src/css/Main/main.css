@@ -1,0 +1,30 @@
+@import "../Loot.css";
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--NEARWHITE);
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 70px;
+  padding-bottom: 61px;
+  position: relative;
+}
+
+.main-con {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.header-wrap {
+  width: 100%;
+  height: 88px;
+}
+.main-wrap {
+  display: flex;
+  flex: 1;
+}
